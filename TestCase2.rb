@@ -1,3 +1,5 @@
+#Verify on entering invalid userid and password, the user shouldn't login				
+
 require 'selenium-webdriver'
 driver = Selenium::WebDriver.for:chrome
 
