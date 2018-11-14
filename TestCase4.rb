@@ -17,16 +17,15 @@ driver.find_element(:id, "passwd").clear
 driver.find_element(:id, "passwd").send_keys "jajal23"
 driver.find_element(:id,"SubmitLogin").click;
 
-#user enter credential to login
-driver.find_element(:class, "logout").clear
-driver.find_element(:class, "logout").click
+sleep 5
+#user click on log out button
+driver.find_element(:link, "Sign out").click
 
-sleep 15
-
+sleep 5
 #if this text appear then the test is passed
 if
-page_url == "http://automationpractice.com/index.php" or page_url == "http://automationpractice.com/index.php?controller=authentication"
-puts "Test passed: Page validated"
-else
+driver.find_element(:link, "Sign out");
 puts "Test failed"
+else
+puts "Test passed: Page validated"
 end
