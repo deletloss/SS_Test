@@ -12,7 +12,7 @@ driver.find_element(:id, "email").clear
 driver.find_element(:id, "email").send_keys "ws12345@mail.com"
 driver.find_element(:id, "passwd").click
 driver.find_element(:id, "passwd").clear
-driver.find_element(:id, "passwd").send_keys "jajal234"
+driver.find_element(:id, "passwd").send_keys "jajal23"
 driver.find_element(:id,"SubmitLogin").click;
 
 sleep 20
