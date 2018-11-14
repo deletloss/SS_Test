@@ -1,3 +1,5 @@
+#Verify on redirection from Promo banner				
+
 require 'selenium-webdriver'
 driver = Selenium::WebDriver.for:chrome
 
