@@ -1,3 +1,5 @@
+#used to erify user can log out properly				
+
 require 'selenium-webdriver'
 driver = Selenium::WebDriver.for:chrome
 
