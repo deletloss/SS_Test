@@ -4,7 +4,7 @@ driver = Selenium::WebDriver.for:chrome
 #user will directed to main page
 driver.get "http://automationpractice.com"
 
-#user access TOU page
+#user access Abaout page
 driver.find_element(:link, "About us").click;
 
 sleep 3
